@@ -6,16 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<!-- this is internal CSS  -->
+    <style>
+h6{
+    border: 2px solid red;
+}
+.class{
+    background-color: aquamarine;
+}
+#id{
+    color:blue;
+}
+
+h4,h5{
+    color:brown;
+}
+
+.fontsize{
+    font-size: 20px;
+}
+.fontfamily{
+    font-family: cursive;
+}
+.lineheight{
+    line-height: 2.9em;
+}
+.fontweight{
+    font-weight: bold;
+}
+.fontstyle{
+    font-style: italic;
+}
+#allcsstag{
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 2.9em;
+    font-weight: bold;
+    font-style: italic;
+   border-radius: 2px;
+   border-color: seagreen;
+   color: darkgreen;
+}
+
+
+
+    </style>
 </head>
 
-<body>
+<body bgcolor="grey">
+    <hr>
+    <h2> <b> THIS IS THE PARAGRAPH</h2> </b>
+    <p> <strong>this is the Lorem tag "lorem34"  
+        <!-- lorem is an emmit that represents a bunch of library words provided by vs code --></strong><br>SLorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Consequatur, soluta molestias cumque dolorem harum tempore recusandae labore repellendus hic eos minus, esse,
+        rem earum! Quia unde praesentium blanditiis tempora iure. ipsum dolor sit amet, consectetur adipisicing elit.
+        Voluptates, aperiam. </p>
     <h1>heading</h1>
     <h2>heading</h2>
     <h3>heading</h3>
     <h4>heading</h4>
     <h5>heading</h5>
     <h6>heading</h6>
-
+    <hr>
 
     <p><strong>THIS IS STRONG</strong></p>
     <p><em>THIS IS EMPHASIS</em></p>
@@ -34,7 +87,8 @@
         <li>SANTU</li>
         <li>MUTKI</li>
     </ol>
-
+    <hr>
+    <!-- FOR CRETING A TABLE USING THIS BASIC TAG -->
     <h2>CREATING TABLE</h2>
 
     <table>
@@ -70,19 +124,204 @@
 
     </table>
     <br>
+    <hr>
     <h3>SOME IMPORTANTS LINK ARE HERE :-</h3>
+    <div style="text-align: center;"> <!-- this is inline CSS  -->
+<!-- link an another page <a href>  -->
+        <a href="www.google.com">GOOGLE</a><br>
+        <a href="www.facebook.com">FACEBOOK</a><br>
+        <a href="www.twitter.com">TWITTER</a><br>
+        <a href="www.amazon.com">AMAZON</a><br>
+        <a href="www.flipkart.com">FLIPKART</a><br>
+        <a href="www.unsplash.com">UNSPLASH</a><br>
 
-    <a href="www.google.com">GOOGLE</a><br>
-    <a href="www.facebook.com">FACEBOOK</a><br>
-    <a href="www.twitter.com">TWITTER</a><br>
-    <a href="www.amazon.com">AMAZON</a><br>
-    <a href="www.flipkart.com">FLIPKART</a><br>
-    <a href="www.unsplash.com">UNSPLASH</a><br>
-    <br>
-
+    </div>
+    <hr>
+<!-- IMG scource  FOR LINK AN IMAGE ON MARKUP -->
     <h3>HTML IMAGE PREFERENCE:-</h3>
-    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        alt="">
+    <div style="text-align: center;">
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            height="90" width="100" alt="programming image"><br>
+    </div>
+
+
+
+
+    <hr>
+<!-- USING FORM TAG FOR CRETING A FORM  -->
+    <form action="">
+
+        <div style="text-align: center;">
+            <h2> FORM DESIGN </h2>
+
+
+
+
+
+            <div>
+                FIRST NAME: <input type="text" name="type your name" id="my name">
+                LAST NAME: <input type="text" name="type your name" id="my name">
+            </div><br>
+
+            <div>
+                MOBILE NO : <input type="number" name="" id="">
+            </div><br>
+
+            <div>
+                EMAIL: <input type="email" name="" id=""><br>
+            </div><br>
+
+            <div>
+                date Of Birth : <input type="date" name="dob" id=""><br>
+            </div><br>
+
+            <div>
+                GENDER : MALE <input type="radio" name="age" id="">
+                FEMALE <input type="radio" name="age" id="">
+            </div><br>
+
+            <div>
+                <label for="add"> <strong>COUNTRY:</strong> </label>
+
+                <select id="cars">
+                    <option value="IND">INDIA</option>
+                    <option value="US">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="CHN">CHINA</option>
+                </select>
+            </div><br>
+
+            <div>
+                ADDRESS: <br>
+                <textarea name="address" id="" cols="10" rows="5"></textarea>
+
+            </div><br>
+
+            <div>
+
+            </div><br>
+
+            <div>
+                Are You Eligible <input type="checkbox" name="" id="" checked>
+            </div><br>
+
+            <div>
+
+
+                PASSWORD: <input type="password" name="password" id=""><br>
+                CONFIRM PASSWORD: <input type="password" name="password" id="">
+
+            </div><br>
+
+            <div>
+                <strong>
+                    <input type="submit" value="SUBMIT NOW">
+                    <input type="reset" value="RESET NOW"><br>
+                </strong>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <!-- HTML ENTITY -->
+    <h2>
+        HTML ENTITY
+    </h2>
+
+    <p> this is ENTITY: &nbsp; </p>
+    <p> this is ENTITY: &lt; </p>
+    <p> this is ENTITY: &gt; </p>
+    <p> this is ENTITY: &amp; </p>
+    <p> this is ENTITY: &quot; </p>
+    <p> this is ENTITY: &apos; </p>
+    <p> this is ENTITY: &cent; </p>
+    <p> this is ENTITY: &pound; </p>
+    <p> this is ENTITY: &yen; </p>
+    <p> this is ENTITY: &euro; </p>
+    <p> this is ENTITY: &copy; </p>
+    <p> this is ENTITY: &reg; </p>
+    <p> this is ENTITY: a&#771; </p>
+    <p> this is ENTITY: a&#768; </p>
+    <br>
+    <hr>
+<!-- using Sementic tag -->
+    <p><b>SEMENTIC TAG</b></p>
+    <ul>
+        <li>
+            <h2>SECTION</h2>
+            <section>
+
+                <h3> WWF</h3>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+                    conservation, research and restoration of the environment, formerly named the World Wildlife Fund.
+                    WWF
+                    was founded in 1961.</p>
+            </section>
+
+            <section>
+                <h3>WWF's Panda symbol</h3>
+                <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda
+                    named
+                    Chi
+                    Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the
+                    establishment of
+                    WWF.</p>
+            </section>
+
+
+        <li>
+            <!-- for writing an ARTICLE -->
+            <h2>ARTICLE</h2>
+            >
+            <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most
+                    popular
+                    web browser today!</p>
+            </article>
+
+            <article>
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                    popular web browser since January, 2018.</p>
+            </article>
+
+            <article>
+                <h2>Microsoft Edge</h2>
+                <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
+                    Internet Explorer.</p>
+            </article>
+<li>
+    <!-- details tag most commoonly use for dropdown list -->
+    <details>   
+        <summary> <b>Epcot Center</b>  </summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details><hr>
+    </ul>
+
+
+<!-- Starting CSS -->
+
+<h2> WELCOME TO CSS </h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptatem.</p>
+<div id="id">THIS IS ID</div>
+<span class="class">THIS IS CLASS</span>
+
+<div class="fontsize">FONT SIZE</div>
+<div class="fontfamily">FONT FAMILY</div>
+<div class="lineheight">LINE-HEIGHT</div>
+<div class="fontweight">FONT-WEIGHT</div>
+<div class="fontstyle">FONT-STYLE</div>
+<div id="allcsstag">MOST COMMON CSS TAG</div>
+
+<hr>
+<div id="padding"> <h3>This is padding  </h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quas aspernatur, porro quasi debitis alias! Voluptatibus esse officia asperiores veniam rem tenetur! Tenetur est magni officia doloremque. Assumenda, eempore consequuntur recusandae rerum voluptatem esse quasi accusamus ratione necessitatibus velit laudantium soluta, omnis optio saepe maxime perspiciatis vitae aspernatur natus. Velit.</div>
+
+<div id="margin"><h3>This is margin</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem voluptas voluptates possimus culpa modi odit dignissimos debitis. Eius fuga iusto dit quos doloribus debitis natus pariatur repellendus sint molestiae accusantium autem architecto similique facere veniam, aliquam, placeat laboriosam animi. Veniam earum consectetur facilis sint dolorem, blanditiis at!</div>
+
+
+
 
 
 </body>

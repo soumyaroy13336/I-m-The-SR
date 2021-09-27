@@ -1,0 +1,239 @@
+/* .container {
+    position: absolute;
+width: 900px;
+height: 500px;
+left: 531px;
+top: 292px;
+
+background: #000000;
+  } */
+  
+  .cell-1 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 100px;
+top: 226px;
+
+background: #5459BA;
+  }
+  .cell-2 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 200px;
+top: 226px;
+
+background: #75B683;
+  }
+  .cell-3 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 300px;
+top: 226px;
+
+background: #696A6C;
+
+  }
+  .cell-4 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 226px;
+
+background: #12FF54;
+  }
+  .cell-5 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 500px;
+top: 226px;
+
+background: #FF3216;
+  }
+  .cell-6 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 600px;
+top: 226px;
+
+background: #85b177;
+
+  }
+  .cell-7 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 700px;
+top: 225px;
+
+background: #11C6FF;
+  }
+  .cell-8 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 276px;
+
+background: #0085FF;
+  }
+  .cell-9 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 176px;
+
+background: #43B4CD;
+  }
+  .cell-10 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 126px;
+
+background: #187b12a8;
+
+  }
+  .cell-11 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 76px;
+
+background: #E98428;
+  }
+  .cell-12 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 326px;
+
+background: #BFEA14;
+  }
+  .cell-13 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 400px;
+top: 376px;
+
+background: #C96595;
+  }
+  .cell-14 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 300px;
+top: 276px;
+
+background: #12FF54;
+  }
+  .cell-15 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 500px;
+    top: 176px;
+    
+    background: #12FF54;
+  }
+  .cell-16 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 300px;
+top: 176px;
+
+background: #12FF54;
+  }
+  .cell-17 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 600px;
+    top: 276px;
+    
+    background: #11C6FF;
+  }
+  .cell-18 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 600px;
+    top: 176px;
+    
+    background: #11C6FF;
+  }
+  .cell-19 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 200px;
+top: 176px;
+
+background: #5459BA;
+
+  }
+  .cell-20 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 200px;
+top: 276px;
+
+background: #5459BA;
+  }
+  .cell-21 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 300px;
+top: 326px;
+
+background: #C96595;
+  }
+  .cell-22 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 500px;
+top: 326px;
+
+background: #C96595;
+  }
+  .cell-23 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 500px;
+top: 126px;
+
+background: #E98428;
+  }
+  .cell-24 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 300px;
+top: 126px;
+
+background: #E98428;
+  }
+  .cell-25 {
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 500px;
+top: 276px;
+
+background: #12FF54;
+  }
